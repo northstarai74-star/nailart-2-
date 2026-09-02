@@ -230,7 +230,7 @@
           <li>Max 8 students</li>
           <li>Kit included</li>
         </ul>
-        <div class="course-price">$650</div>
+        <div class="course-cred">Credential prefix <strong>LUME‑FND</strong></div>
       </article>
 
       <article class="course-card featured reveal">
@@ -242,7 +242,7 @@
           <li>Max 6 students</li>
           <li>Kit + practice hands included</li>
         </ul>
-        <div class="course-price">$980</div>
+        <div class="course-cred">Credential prefix <strong>LUME‑SCP</strong></div>
       </article>
 
       <article class="course-card reveal">
@@ -254,8 +254,25 @@
           <li>Max 4 students</li>
           <li>Certificate of completion</li>
         </ul>
-        <div class="course-price">$1,150</div>
+        <div class="course-cred">Credential prefix <strong>LUME‑3DA</strong></div>
       </article>
+    </div>
+
+    <div class="cert-check reveal">
+      <div class="cert-check-head">
+        <p class="eyebrow">Certificate Registry</p>
+        <h3>Check a certificate's validity</h3>
+        <p class="cert-check-desc">Salons and clients can confirm a LUMÉ Academy graduate's credential —
+          enter the ID printed on the certificate to see the course, issue date, and current status.</p>
+      </div>
+      <form class="cert-form" id="certForm">
+        <label for="certId">Certificate ID</label>
+        <div class="cert-form-row">
+          <input type="text" id="certId" name="certId" placeholder="e.g. LUME-SCP-2024-0087" autocomplete="off">
+          <button type="submit" class="btn btn-solid btn-invert">Check Validity</button>
+        </div>
+      </form>
+      <div class="cert-result" id="certResult" role="status" aria-live="polite"></div>
     </div>
 
     <div class="academy-cta reveal">
